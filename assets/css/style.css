@@ -2025,9 +2025,7 @@ input {
 .header-wrapper .logo-menu {
   max-width: 184px;
 }
-.header-wrapper .logo-menu img {
-  max-width: 100%;
-}
+
 .header-wrapper .main-menu {
   position: relative;
   display: flex;

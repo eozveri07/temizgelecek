@@ -3170,7 +3170,7 @@ input {
 }
 .work__item-arrow::before {
   position: absolute;
-  content: "Know More";
+  content: "Gelecek için";
   font-weight: 600;
   color: var(--primary-color);
   font-size: 16px;
@@ -6862,5 +6862,30 @@ input {
 @media screen and (max-width: 767px) {
   .footer-two__item {
     padding-left: 30px;
+  }
+}
+
+
+.btn-one {
+    background-color: #28a745; 
+    color: #ffffff !important;
+    border: 2px solid #28a745;
+}
+
+.btn-one:hover {
+    background-color: #fff;
+    color: #28a745 !important;
+    border: 2px solid #28a745;
+}
+ 
+@media (max-width: 1000px) {
+  .banner-two__content h4,
+  .banner-two__content h2,
+  .banner-two__content p {
+      background-color: rgba(190, 190, 190, 0.5);
+      color: #ffffff; 
+      padding: 10px;
+      border-radius: 5px; 
+      box-shadow: 0 4px 8px rgba(212, 212, 212, 0.1);
   }
 }
